@@ -1,7 +1,7 @@
 |Catalog|Official Site|Source Version|Specific Version Docs|
 |:--|:--|:--|:--|
 |Build System|[Gradle](http://gradle.org/)|[2.12](https://github.com/gradle/gradle/tree/REL_2.12)|[User Guide](projects/gradle/2.12/userguide/userguide_single.html)<br/>[Build Language Reference](projects/gradle/2.12/dsl/index.html)<br/>[javadoc](projects/gradle/2.12/javadoc/index.html)<br/>[groovydoc](projects/gradle/2.12/groovydoc/index.html)|
-|Gradle Plugin|[Gretty](http://akhikhl.github.io/gretty-doc/Getting-started.html)|
+|Gradle Plugin|[Gretty](http://akhikhl.github.io/gretty-doc/Getting-started.html)|[1.2.4](https://github.com/akhikhl/gretty/tree/v1.2.4)|[documentation](projects/gretty/1.2.4/index.html)|
 |Workflow Platform|[Activiti](http://www.activiti.org/)|[5.19.0.2](https://github.com/Activiti/Activiti/tree/5.19.0.2)|[Activiti Readme](projects/activiti/readme.html)|
 |Workflow Web Designer|[Activiti Web Designer Branch](https://github.com/AlphaHinex/Activiti/tree/web-designer)
 
@@ -30,6 +30,5 @@
 |xml|dom4j|
 |JSON|[jackson-databind 2.3.6](https://github.com/FasterXML/jackson-databind/tree/jackson-databind-2.6.3)|
 |消息队列||
-|Build System|[gretty](https://github.com/akhikhl/gretty)|
 |持续集成||
 |license||
