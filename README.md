@@ -1,9 +1,24 @@
-|Catalog|Official Site|Source Version|Specific Version Docs|
-|:--|:--|:--|:--|
-|Build System|[Gradle](http://gradle.org/)|[2.12](https://github.com/gradle/gradle/tree/REL_2.12)|[User Guide](projects/gradle/2.12/userguide/userguide_single.html)<br/>[Build Language Reference](projects/gradle/2.12/dsl/index.html)<br/>[javadoc](projects/gradle/2.12/javadoc/index.html)<br/>[groovydoc](projects/gradle/2.12/groovydoc/index.html)|
-|Gradle Plugin|[Gretty](http://akhikhl.github.io/gretty-doc/Getting-started.html)|[1.2.4](https://github.com/akhikhl/gretty/tree/v1.2.4)|[documentation](projects/gretty/1.2.4/index.html)|
-|Workflow Platform|[Activiti](http://www.activiti.org/)|[5.19.0.2](https://github.com/Activiti/Activiti/tree/5.19.0.2)|[Activiti Readme](projects/activiti/readme.html)|
-|Workflow Web Designer|[Activiti Web Designer Branch](https://github.com/AlphaHinex/Activiti/tree/web-designer)
+|Catalog              |Official Site                |Source Version  |Specific Version Docs|
+|:--------------------|:----------------------------|:---------------|:--------------------|
+|Build System         |[Gradle][bs-1]               |[2.12][bs-2]    |[User Guide][bs-3]<br/>[Build Language Reference][bs-4]<br/>[javadoc][bs-5]<br/>[groovydoc][bs-6]|
+|Gradle Plugin        |[Gretty][gpg-1]              |[1.2.4][gpg-2]  |[documentation][gpg-3]|
+|Workflow Platform    |[Activiti][wp-1]             |[5.19.0.2][wp-2]|[Activiti Readme][wp-3]|
+|Workflow Web Designer|[Activit Web Designer][wwd-1]|
+
+
+[bs-1]: http://gradle.org/
+[bs-2]: https://github.com/gradle/gradle/tree/REL_2.12
+[bs-3]: projects/gradle/2.12/userguide/userguide_single.html
+[bs-4]: projects/gradle/2.12/dsl/index.html
+[bs-5]: projects/gradle/2.12/javadoc/index.html
+[bs-6]: projects/gradle/2.12/groovydoc/index.html
+[gpg-1]: http://akhikhl.github.io/gretty-doc/Getting-started.html
+[gpg-2]: https://github.com/akhikhl/gretty/tree/v1.2.4
+[gpg-3]: projects/gretty/1.2.4/index.html
+[wp-1]: http://www.activiti.org/
+[wp-2]: https://github.com/Activiti/Activiti/tree/5.19.0.2
+[wp-3]: projects/activiti/readme.html
+[wwd-1]: https://github.com/AlphaHinex/Activiti/tree/web-designer
 
 
 ---
