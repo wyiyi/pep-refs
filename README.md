@@ -3,6 +3,7 @@
 |Build System         |[Gradle][bs-1]               |[2.12][bs-2]    |[User Guide][bs-3]<br/>[Build Language Reference][bs-4]<br/>[javadoc][bs-5]<br/>[groovydoc][bs-6]|
 |Data Access Layer    |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]  |[Reference][sdj-3]     |
 |Gradle Plugin        |[Gretty][gpg-1]              |[1.2.4][gpg-2]  |[documentation][gpg-3] |
+|JPA                  |                             |[2.1][jpa-2]    |                       |
 |Workflow Platform    |[Activiti][wp-1]             |[5.19.0.2][wp-2]|[Activiti Readme][wp-3]|
 |Workflow Web Designer|[Activit Web Designer][wwd-1]|                |                       |
 
@@ -15,6 +16,7 @@
 [gpg-1]: http://akhikhl.github.io/gretty-doc/Getting-started.html
 [gpg-2]: https://github.com/akhikhl/gretty/tree/v1.2.4
 [gpg-3]: projects/gretty/1.2.4/index.html
+[jpa-2]: https://jcp.org/aboutJava/communityprocess/final/jsr338/index.html
 [sdj-1]: http://www.springsource.org/spring-data
 [sdj-2]: https://github.com/spring-projects/spring-data-jpa/tree/1.9.4.RELEASE
 [sdj-3]: projects/spring-data-jpa/1.9.4/index.htm
@@ -38,7 +40,6 @@
 |Validator|Hibernate Validator 5.1.3.Final|
 |数据库|[H2 Database 1.3.176](https://github.com/h2database/h2database/tree/version-1.3/version-1.3.176/h2)|
 |Connection Pool|[HikariCP 2.4.0](https://github.com/brettwooldridge/HikariCP/tree/HikariCP-2.4.0)|
-|JPA|[Java Persistence 2.1](https://jcp.org/aboutJava/communityprocess/final/jsr338/index.html)|
 |JPA Provider|[Hibernate EntityManager 4.3.10.Final](https://github.com/hibernate/hibernate-orm/tree/4.3.10.Final)|
 |任务调度|quartz 2.2.1|
 |Unit Test|[junit 4.12](https://github.com/junit-team/junit/tree/r4.12)<br/>[spock 0.7](https://github.com/spockframework/spock/tree/spock-0.7-groovy-2.0)|
