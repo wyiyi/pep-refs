@@ -1,8 +1,9 @@
 |Catalog              |Official Site                |Source Version  |Specific Version Docs  |
 |:--------------------|:----------------------------|:---------------|:----------------------|
-|Build System         |[Gradle][bs-1]               |[2.12][bs-2]    |[User Guide][bs-3]<br/>[Build Language Reference][bs-4]<br/>[javadoc][bs-5]<br/>[groovydoc][bs-6]|
+|Build System         |[Gradle][bs-1]               |[2.12][bs-2]    |[User Guide][bs-3]<br>[Build Language Reference][bs-4]<br/>[javadoc][bs-5]<br/>[groovydoc][bs-6]|
 |Data Access Layer    |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]  |[Reference][sdj-3]     |
-|Gradle Plugin        |[Gretty][gpg-1]              |[1.2.4][gpg-2]  |[documentation][gpg-3] |
+|Database             |[H2 Database][db-1]          |[1.3.176][db-2] |[Documentation][db-3]<br>[javadoc][db-4]|
+|Gradle Plugin        |[Gretty][gpg-1]              |[1.2.4][gpg-2]  |[Documentation][gpg-3] |
 |JPA                  |                             |[2.1][jpa-2]    |                       |
 |Workflow Platform    |[Activiti][wp-1]             |[5.19.0.2][wp-2]|[Activiti Readme][wp-3]|
 |Workflow Web Designer|[Activit Web Designer][wwd-1]|                |                       |
@@ -13,6 +14,10 @@
 [bs-4]: projects/gradle/2.12/dsl/index.html
 [bs-5]: projects/gradle/2.12/javadoc/index.html
 [bs-6]: projects/gradle/2.12/groovydoc/index.html
+[db-1]: http://h2database.com/html/main.html
+[db-2]: https://github.com/h2database/h2database/tree/version-1.3/version-1.3.176/h2
+[db-3]: projects/h2/1.3.176/index.html
+[db-4]: projects/h2/1.3.176/javadoc/index.html
 [gpg-1]: http://akhikhl.github.io/gretty-doc/Getting-started.html
 [gpg-2]: https://github.com/akhikhl/gretty/tree/v1.2.4
 [gpg-3]: projects/gretty/1.2.4/index.html
@@ -38,7 +43,6 @@
 |Logging|[SLF4J 1.7.12](https://github.com/qos-ch/slf4j/tree/v_1.7.12)<br/>[Logback 1.1.3](https://github.com/qos-ch/logback)|
 |Cache|[ehcache](http://ehcache.org/)-core 2.6.9|
 |Validator|Hibernate Validator 5.1.3.Final|
-|数据库|[H2 Database 1.3.176](https://github.com/h2database/h2database/tree/version-1.3/version-1.3.176/h2)|
 |Connection Pool|[HikariCP 2.4.0](https://github.com/brettwooldridge/HikariCP/tree/HikariCP-2.4.0)|
 |JPA Provider|[Hibernate EntityManager 4.3.10.Final](https://github.com/hibernate/hibernate-orm/tree/4.3.10.Final)|
 |任务调度|quartz 2.2.1|
