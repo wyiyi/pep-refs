@@ -4,7 +4,7 @@
 |Data Access Layer    |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]  |[Reference][sdj-3]     |
 |Database             |[H2 Database][db-1]          |[1.3.176][db-2] |[Documentation][db-3]<br>[javadoc][db-4]|
 |Gradle Plugin        |[Gretty][gpg-1]              |[1.2.4][gpg-2]  |[Documentation][gpg-3] |
-|JPA                  |                             |[2.1][jpa-2]    |                       |
+|JPA                  |                             |[2.1][jpa-1]    |[Specification][jpa-2] |
 |Workflow Platform    |[Activiti][wp-1]             |[5.19.0.2][wp-2]|[Activiti Readme][wp-3]|
 |Workflow Web Designer|[Activit Web Designer][wwd-1]|                |                       |
 
@@ -21,7 +21,8 @@
 [gpg-1]: http://akhikhl.github.io/gretty-doc/Getting-started.html
 [gpg-2]: https://github.com/akhikhl/gretty/tree/v1.2.4
 [gpg-3]: projects/gretty/1.2.4/index.html
-[jpa-2]: https://jcp.org/aboutJava/communityprocess/final/jsr338/index.html
+[jpa-1]: https://jcp.org/aboutJava/communityprocess/final/jsr338/index.html
+[jpa-2]: projects/JPA/2.1/JavaPersistence2.1.pdf
 [sdj-1]: http://www.springsource.org/spring-data
 [sdj-2]: https://github.com/spring-projects/spring-data-jpa/tree/1.9.4.RELEASE
 [sdj-3]: projects/spring-data-jpa/1.9.4/index.htm
