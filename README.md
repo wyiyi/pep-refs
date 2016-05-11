@@ -4,8 +4,8 @@
 |Data Access Layer    |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]  |[Reference][sdj-3]     |
 |Database             |[H2 Database][db-1]          |[1.3.176][db-2] |[Documentation][db-3]<br>[javadoc][db-4]|
 |Gradle Plugin        |[Gretty][gpg-1]              |[1.2.4][gpg-2]  |[Documentation][gpg-3] |
-|JPA                  |                             |[2.1][jpa-1]    |[Specification][jpa-2] |
-|Servlet              |                             |[3.0.1][s-2]    |[Specification Final Release 2009][s-3] <br> [Specification Maintenance Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
+|JPA                  |[JSR 338][jpa-0]             |[2.1][jpa-1]    |[Specification][jpa-2] |
+|Servlet              |[JSR 315][s-1]               |[3.0.1][s-2]    |[Specification Final Release 2009][s-3] <br> [Specification Maintenance Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
 |Servlet Container    |[Tomcat][sc-1]               |[7.0.69][sc-2]  |[Documentation][sc-3]  |
 |Workflow Platform    |[Activiti][wp-1]             |[5.19.0.2][wp-2]|[Activiti Readme][wp-3]|
 |Workflow Web Designer|[Activit Web Designer][wwd-1]|                |                       |
@@ -23,8 +23,10 @@
 [gpg-1]: http://akhikhl.github.io/gretty-doc/Getting-started.html
 [gpg-2]: https://github.com/akhikhl/gretty/tree/v1.2.4
 [gpg-3]: projects/gretty/1.2.4/index.html
+[jpa-0]: https://jcp.org/en/jsr/detail?id=338
 [jpa-1]: https://jcp.org/aboutJava/communityprocess/final/jsr338/index.html
 [jpa-2]: projects/JPA/2.1/JavaPersistence2.1.pdf
+[s-1]: https://jcp.org/en/jsr/detail?id=315
 [s-2]: projects/servlet/3.0/schema/javax.servlet.jar
 [s-3]: projects/servlet/3.0/servlet-3_0-final-spec.pdf
 [s-4]: projects/servlet/3.0/servlet-3_0-mrel-spec.pdf
