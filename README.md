@@ -1,14 +1,24 @@
-|Catalog              |Official Site                |Source Version  |Specific Version Docs  |
-|:--------------------|:----------------------------|:---------------|:----------------------|
-|Build System         |[Gradle][bs-1]               |[2.12][bs-2]    |[User Guide][bs-3]<br>[Build Language Reference][bs-4]<br/>[javadoc][bs-5]<br/>[groovydoc][bs-6]|
-|Data Access Layer    |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]  |[Reference][sdj-3]     |
-|Database             |[H2 Database][db-1]          |[1.3.176][db-2] |[Documentation][db-3]<br>[javadoc][db-4]|
-|Gradle Plugin        |[Gretty][gpg-1]              |[1.2.4][gpg-2]  |[Documentation][gpg-3] |
-|JPA                  |[JSR 338][jpa-0]             |[2.1][jpa-1]    |[Specification][jpa-2] |
-|Servlet              |[JSR 315][s-1]               |[3.0.1][s-2]    |[Specification Final Release 2009][s-3] <br> [Specification Maintenance Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
-|Servlet Container    |[Tomcat][sc-1]               |[7.0.69][sc-2]  |[Documentation][sc-3]  |
-|Workflow Platform    |[Activiti][wp-1]             |[5.19.0.2][wp-2]|[Activiti Readme][wp-3]|
-|Workflow Web Designer|[Activit Web Designer][wwd-1]|                |                       |
+技术及工具
+--------
+
+|Catalog               |Official Site                |Source Version   |Specific Version Docs  |
+|:---------------------|:----------------------------|:----------------|:----------------------|
+|Build System          |[Gradle][bs-1]               |[2.12][bs-2]     |[User Guide][bs-3]<br>[Build Language Reference][bs-4]<br/>[javadoc][bs-5]<br/>[groovydoc][bs-6]|
+|Continuous Integration|[TeamCity][ci-tc-o]          |[9.1.7][ci-tc-s] |[Online Documentation][ci-tc-d]|
+|Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]   |[Reference][sdj-3]     |
+|Database              |[H2 Database][db-1]          |[1.3.176][db-2]  |[Documentation][db-3]<br>[javadoc][db-4]|
+|Gradle Plugin         |[Gretty][gpg-1]              |[1.2.4][gpg-2]   |[Documentation][gpg-3] |
+|JPA                   |[JSR 338][jpa-0]             |[2.1][jpa-1]     |[Specification][jpa-2] |
+|Quality Tools         |[Checkstyle][qt-cs-o]        |[6.19][qt-cs-s]  |[Online Documentation][qt-cs-d]|
+|                      |[Codecov][qt-cc-o]           |                 |[Online Documentation][qt-cc-d]|
+|                      |[CodeNarc][qt-cn-o]          |[0.25.2][qt-cn-s]|                       |
+|                      |[FindBugs][qt-fb-o]          |[3.0.1][qt-fb-s] |[Online Documentation][qt-fb-d]|
+|                      |[JaCoCo][qt-jcc-o]           |[0.7.7][qt-jcc-s]|[Online Documentation][qt-jcc-d]|
+|Servlet               |[JSR 315][s-1]               |[3.0.1][s-2]     |[Specification Final Release 2009][s-3] <br> [Specification Maintenance Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
+|Servlet Container     |[Tomcat][sc-1]               |[7.0.69][sc-2]   |[Documentation][sc-3]  |
+|Workflow Platform     |[Activiti][wp-1]             |[5.19.0.2][wp-2] |[Activiti Readme][wp-3]|
+|Workflow Web Designer |[Activit Web Designer][wwd-1]|                 |                       |
+
 
 [bs-1]: http://gradle.org/
 [bs-2]: https://github.com/gradle/gradle/tree/REL_2.12
@@ -16,6 +26,9 @@
 [bs-4]: projects/gradle/2.12/dsl/index.html
 [bs-5]: projects/gradle/2.12/javadoc/index.html
 [bs-6]: projects/gradle/2.12/groovydoc/index.html
+[ci-tc-o]: https://www.jetbrains.com/teamcity/
+[ci-tc-s]: https://www.jetbrains.com/teamcity/download/
+[ci-tc-d]: https://confluence.jetbrains.com/display/TCD9/TeamCity+Documentation
 [db-1]: http://h2database.com/html/main.html
 [db-2]: https://github.com/h2database/h2database/tree/version-1.3/version-1.3.176/h2
 [db-3]: projects/h2/1.3.176/index.html
@@ -26,6 +39,19 @@
 [jpa-0]: https://jcp.org/en/jsr/detail?id=338
 [jpa-1]: https://jcp.org/aboutJava/communityprocess/final/jsr338/index.html
 [jpa-2]: projects/JPA/2.1/JavaPersistence2.1.pdf
+[qt-cc-o]: https://codecov.io/
+[qt-cc-d]: https://codecov.io/docs
+[qt-cn-o]: http://codenarc.sourceforge.net/
+[qt-cn-s]: https://github.com/CodeNarc/CodeNarc/tree/v0.25.2
+[qt-cs-o]: http://checkstyle.sourceforge.net/
+[qt-cs-s]: https://github.com/checkstyle/checkstyle/tree/checkstyle-6.19
+[qt-cs-d]: http://checkstyle.sourceforge.net/checks.html
+[qt-fb-o]: http://findbugs.sourceforge.net/
+[qt-fb-s]: https://github.com/findbugsproject/findbugs/tree/release-3.0.1
+[qt-fb-d]: http://findbugs.sourceforge.net/manual/index.html
+[qt-jcc-o]: http://eclemma.org/jacoco/
+[qt-jcc-s]: https://github.com/jacoco/jacoco/tree/v0.7.7
+[qt-jcc-d]: http://eclemma.org/jacoco/trunk/doc/
 [s-1]: https://jcp.org/en/jsr/detail?id=315
 [s-2]: projects/servlet/3.0/schema/javax.servlet.jar
 [s-3]: projects/servlet/3.0/servlet-3_0-final-spec.pdf
@@ -42,6 +68,14 @@
 [wp-2]: https://github.com/Activiti/Activiti/tree/5.19.0.2
 [wp-3]: projects/activiti/readme.html
 [wwd-1]: https://github.com/AlphaHinex/Activiti/tree/web-designer
+
+
+辅助工具
+------
+
+|Catalog   |Tool                         |
+|:---------|:----------------------------|
+|UML & ERD |[StarUML](http://staruml.io/)|
 
 
 ---
@@ -63,5 +97,4 @@
 |xml|dom4j|
 |JSON|[jackson-databind 2.3.6](https://github.com/FasterXML/jackson-databind/tree/jackson-databind-2.6.3)|
 |消息队列||
-|持续集成||
 |license||
