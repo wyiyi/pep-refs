@@ -18,6 +18,8 @@
 |                      |[JaCoCo][qt-jcc-o]           |[0.7.7][qt-jcc-s]|[Online Documentation][qt-jcc-d]|
 |Servlet               |[JSR 315][s-1]               |[3.0.1][s-2]     |[Specification Final Release 2009][s-3] <br> [Specification Maintenance Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
 |Servlet Container     |[Tomcat][sc-1]               |[7.0.69][sc-2]   |[Documentation][sc-3]  |
+|Test Frameworks       |[JUnit][tf-ju-o]             |[4.12][tf-ju-s]  |[javadoc][tf-ju-d]     |
+|                      |[Spock Framework][tf-sf-o]   |[1.0][tf-sf-s]   |[Documentation][tf-sf-d1] <br> [javadoc][tf-sf-d2]|
 |Workflow Platform     |[Activiti][wp-1]             |[5.19.0.2][wp-2] |[Activiti Readme][wp-3]|
 |Workflow Web Designer |[Activit Web Designer][wwd-1]|                 |                       |
 
@@ -73,6 +75,13 @@
 [sdj-1]: http://www.springsource.org/spring-data
 [sdj-2]: https://github.com/spring-projects/spring-data-jpa/tree/1.9.4.RELEASE
 [sdj-3]: projects/spring-data-jpa/1.9.4/index.htm
+[tf-ju-o]: http://junit.org/junit4/
+[tf-ju-s]: https://github.com/junit-team/junit/tree/r4.12
+[tf-ju-d]: projects/junit/4.12/index.html
+[tf-sf-o]: http://spockframework.org
+[tf-sf-s]: https://github.com/spockframework/spock/tree/spock-1.0
+[tf-sf-d1]: projects/spock/1.0/doc/index.html
+[tf-sf-d2]: projects/spock/1.0/javadoc/index.html
 [wp-1]: http://www.activiti.org/
 [wp-2]: https://github.com/Activiti/Activiti/tree/5.19.0.2
 [wp-3]: projects/activiti/readme.html
@@ -100,7 +109,6 @@
 |Connection Pool|[HikariCP 2.4.0](https://github.com/brettwooldridge/HikariCP/tree/HikariCP-2.4.0)|
 |JPA Provider|[Hibernate EntityManager 4.3.10.Final](https://github.com/hibernate/hibernate-orm/tree/4.3.10.Final)|
 |任务调度|quartz 2.2.1|
-|Unit Test|[junit 4.12](https://github.com/junit-team/junit/tree/r4.12)<br/>[spock 0.7](https://github.com/spockframework/spock/tree/spock-0.7-groovy-2.0)|
 |通用工具|guava 18.0|
 |编码及加密|[common-codec 1.10](https://github.com/apache/commons-codec/tree/1.10)<br/>bounce-casle|
 |xml|dom4j|
