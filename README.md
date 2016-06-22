@@ -4,6 +4,8 @@
 |Catalog               |Official Site                |Source Version   |Specific Version Docs  |
 |:---------------------|:----------------------------|:----------------|:----------------------|
 |Build System          |[Gradle][bs-1]               |[2.12][bs-2]     |[User Guide][bs-3]<br>[Build Language Reference][bs-4]<br/>[javadoc][bs-5]<br/>[groovydoc][bs-6]|
+|Common Utilities      |[Commons Lang][cu-cl-o]      |[3.4][cu-cl-s]   |[Online Documentation][cu-cl-d]|
+|                      |[Joda-Time][cu-jt-o]         |[2.9.4][cu-jt-s] |Online Doc [quick][cu-jt-d1] & [full][cu-jt-d2]|
 |Continuous Integration|[TeamCity][ci-tc-o]          |[9.1.7][ci-tc-s] |[Online Documentation][ci-tc-d]|
 |Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]   |[Reference][sdj-3]     |
 |Database              |[H2 Database][db-1]          |[1.3.176][db-2]  |[Documentation][db-3]<br>[javadoc][db-4]|
@@ -29,6 +31,13 @@
 [ci-tc-o]: https://www.jetbrains.com/teamcity/
 [ci-tc-s]: https://www.jetbrains.com/teamcity/download/
 [ci-tc-d]: https://confluence.jetbrains.com/display/TCD9/TeamCity+Documentation
+[cu-cl-o]: http://commons.apache.org/proper/commons-lang/
+[cu-cl-s]: https://github.com/apache/commons-lang/tree/LANG_3_4
+[cu-cl-d]: http://commons.apache.org/proper/commons-lang/javadocs/api-3.4/index.html
+[cu-jt-o]: http://www.joda.org/joda-time/
+[cu-jt-s]: https://github.com/JodaOrg/joda-time/tree/v2.9.4
+[cu-jt-d1]: http://www.joda.org/joda-time/quickstart.html
+[cu-jt-d2]: http://www.joda.org/joda-time/userguide.html
 [db-1]: http://h2database.com/html/main.html
 [db-2]: https://github.com/h2database/h2database/tree/version-1.3/version-1.3.176/h2
 [db-3]: projects/h2/1.3.176/index.html
