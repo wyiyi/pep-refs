@@ -18,6 +18,7 @@
 |                      |[JaCoCo][qt-jcc-o]           |[0.7.7][qt-jcc-s]|[Online Documentation][qt-jcc-d]|
 |Servlet               |[JSR 315][s-1]               |[3.0.1][s-2]     |[Specification Final Release 2009][s-3] <br> [Specification Maintenance Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
 |Servlet Container     |[Tomcat][sc-1]               |[7.0.69][sc-2]   |[Documentation][sc-3]  |
+|Spring                |[Spring Framework][s-sf-o]   |[4.3.0][s-sf-s]  |[Reference][s-sf-d]    |
 |Test Frameworks       |[JUnit][tf-ju-o]             |[4.12][tf-ju-s]  |[javadoc][tf-ju-d]     |
 |                      |[Spock Framework][tf-sf-o]   |[1.0][tf-sf-s]   |[Documentation][tf-sf-d1] <br> [javadoc][tf-sf-d2]|
 |Workflow Platform     |[Activiti][wp-1]             |[5.19.0.2][wp-2] |[Activiti Readme][wp-3]|
@@ -69,6 +70,9 @@
 [s-4]: projects/servlet/3.0/servlet-3_0-mrel-spec.pdf
 [s-5]: projects/servlet/3.0/schema
 [s-6]: projects/servlet/3.0/javadoc/index.html
+[s-sf-o]: http://projects.spring.io/spring-framework/
+[s-sf-s]: https://github.com/spring-projects/spring-framework/tree/v4.3.0.RELEASE
+[s-sf-d]: projects/spring-framework/4.3.0/index.html
 [sc-1]: http://tomcat.apache.org/
 [sc-2]: http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.69/src/
 [sc-3]: projects/tomcat/7.0.69/index.html
@@ -102,7 +106,6 @@
 |Catalog|Version|
 |:--|:--|
 |JDK|oraclejdk7|
-|Spring|[Spring Framework 4.1.7.RELEASE](https://github.com/spring-projects/spring-framework/tree/v4.1.7.RELEASE)|
 |Logging|[SLF4J 1.7.12](https://github.com/qos-ch/slf4j/tree/v_1.7.12)<br/>[Logback 1.1.3](https://github.com/qos-ch/logback)|
 |Cache|[ehcache](http://ehcache.org/)-core 2.6.9|
 |Validator|Hibernate Validator 5.1.3.Final|
