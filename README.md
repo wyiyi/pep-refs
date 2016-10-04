@@ -4,6 +4,8 @@
 |Catalog               |Official Site                |Source Version   |Specific Version Docs  |
 |:---------------------|:----------------------------|:----------------|:----------------------|
 |Build System          |[Gradle][bs-1]               |[2.12][bs-2]     |[User Guide][bs-3]<br>[Build Language Reference][bs-4]<br/>[javadoc][bs-5]<br/>[groovydoc][bs-6]|
+|Cache                 |[ehcache][ce-o]              |core 2.6.9       |                       |
+|                      |[redis][cr-o]                |[3.2.4][cr-s]    |[Documentation][cr-d]  |
 |Common Utilities      |[Commons Lang][cu-cl-o]      |[3.4][cu-cl-s]   |[Online Documentation][cu-cl-d]|
 |                      |[Joda-Time][cu-jt-o]         |[2.9.4][cu-jt-s] |Online Doc [quick][cu-jt-d1] & [full][cu-jt-d2]|
 |Continuous Integration|[TeamCity][ci-tc-o]          |[9.1.7][ci-tc-s] |[Online Documentation][ci-tc-d]|
@@ -31,6 +33,10 @@
 [bs-4]: projects/gradle/2.12/dsl/index.html
 [bs-5]: projects/gradle/2.12/javadoc/index.html
 [bs-6]: projects/gradle/2.12/groovydoc/index.html
+[ce-o]: http://ehcache.org/
+[cr-o]: http://redis.io/
+[cr-s]: https://github.com/antirez/redis/tree/3.2.4
+[cr-d]: https://github.com/antirez/redis-doc
 [ci-tc-o]: https://www.jetbrains.com/teamcity/
 [ci-tc-s]: https://www.jetbrains.com/teamcity/download/
 [ci-tc-d]: https://confluence.jetbrains.com/display/TCD9/TeamCity+Documentation
@@ -107,7 +113,6 @@
 |:--|:--|
 |JDK|oraclejdk7|
 |Logging|[SLF4J 1.7.12](https://github.com/qos-ch/slf4j/tree/v_1.7.12)<br/>[Logback 1.1.3](https://github.com/qos-ch/logback)|
-|Cache|[ehcache](http://ehcache.org/)-core 2.6.9|
 |Validator|Hibernate Validator 5.1.3.Final|
 |Connection Pool|[HikariCP 2.4.0](https://github.com/brettwooldridge/HikariCP/tree/HikariCP-2.4.0)|
 |JPA Provider|[Hibernate EntityManager 4.3.10.Final](https://github.com/hibernate/hibernate-orm/tree/4.3.10.Final)|
