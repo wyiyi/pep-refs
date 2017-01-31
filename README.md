@@ -119,7 +119,7 @@
 |JDK|oraclejdk7|
 |Logging|[SLF4J 1.7.12](https://github.com/qos-ch/slf4j/tree/v_1.7.12)<br/>[Logback 1.1.3](https://github.com/qos-ch/logback)|
 |Validator|Hibernate Validator 5.1.3.Final|
-|Connection Pool|[HikariCP 2.4.0](https://github.com/brettwooldridge/HikariCP/tree/HikariCP-2.4.0)|
+|Connection Pool|[HikariCP 2.4.9](https://github.com/brettwooldridge/HikariCP/tree/HikariCP-2.4.9)|
 |JPA Provider|[Hibernate EntityManager 4.3.10.Final](https://github.com/hibernate/hibernate-orm/tree/4.3.10.Final)|
 |任务调度|quartz 2.2.1|
 |通用工具|guava 18.0|
