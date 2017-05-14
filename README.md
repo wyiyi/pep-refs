@@ -9,7 +9,7 @@
 |                      |[Spring Data Redis][csdr-o]  |[1.7.4][csdr-s]  |[Documentation][csdr-d]|
 |Common Utilities      |[Commons Lang][cu-cl-o]      |[3.4][cu-cl-s]   |[Online Documentation][cu-cl-d]|
 |                      |[Joda-Time][cu-jt-o]         |[2.9.4][cu-jt-s] |Online Doc [quick][cu-jt-d1] & [full][cu-jt-d2]|
-|Continuous Integration|[TeamCity][ci-tc-o]          |[9.1.7][ci-tc-s] |[Online Documentation][ci-tc-d]|
+|Continuous Integration|[TeamCity][ci-tc-o]          |[10.0.5][ci-tc-s]|[Online Documentation][ci-tc-d]|
 |Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]   |[Reference][sdj-3]     |
 |Database              |[H2 Database][db-1]          |[1.3.176][db-2]  |[Documentation][db-3]<br>[javadoc][db-4]|
 |Gradle Plugin         |[Gretty][gpg-1]              |[1.2.4][gpg-2]   |[Documentation][gpg-3] |
@@ -37,7 +37,7 @@
 [ce-o]: http://ehcache.org/
 [ci-tc-o]: https://www.jetbrains.com/teamcity/
 [ci-tc-s]: https://www.jetbrains.com/teamcity/download/
-[ci-tc-d]: https://confluence.jetbrains.com/display/TCD9/TeamCity+Documentation
+[ci-tc-d]: https://confluence.jetbrains.com/display/TCD10/TeamCity+Documentation
 [cr-o]: http://redis.io/
 [cr-s]: https://github.com/antirez/redis/tree/3.2.4
 [cr-d]: https://github.com/antirez/redis-doc
