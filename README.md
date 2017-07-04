@@ -12,6 +12,7 @@
 |Continuous Integration|[TeamCity][ci-tc-o]          |[10.0.5][ci-tc-s]|[Online Documentation][ci-tc-d]|
 |Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]   |[Reference][sdj-3]     |
 |Database              |[H2 Database][db-1]          |[1.3.176][db-2]  |[Documentation][db-3]<br>[javadoc][db-4]|
+|[EAI][eai]            |[Spring Integration][si-o]   |[4.3.9][si-s]    |[Reference][si-d]      |
 |Gradle Plugin         |[Gretty][gpg-1]              |[1.2.4][gpg-2]   |[Documentation][gpg-3] |
 |JPA                   |[JSR 338][jpa-0]             |[2.1][jpa-1]     |[Specification][jpa-2] |
 |Quality Tools         |[Checkstyle][qt-cs-o]        |[6.19][qt-cs-s]  |[Online Documentation][qt-cs-d]|
@@ -55,6 +56,7 @@
 [db-2]: https://github.com/h2database/h2database/tree/version-1.3/version-1.3.176/h2
 [db-3]: projects/h2/1.3.176/index.html
 [db-4]: projects/h2/1.3.176/javadoc/index.html
+[eai]: https://en.wikipedia.org/wiki/Enterprise_application_integration
 [gpg-1]: http://akhikhl.github.io/gretty-doc/Getting-started.html
 [gpg-2]: https://github.com/akhikhl/gretty/tree/v1.2.4
 [gpg-3]: projects/gretty/1.2.4/index.html
@@ -89,6 +91,9 @@
 [sdj-1]: http://www.springsource.org/spring-data
 [sdj-2]: https://github.com/spring-projects/spring-data-jpa/tree/1.9.4.RELEASE
 [sdj-3]: projects/spring-data-jpa/1.9.4/index.htm
+[si-o]: http://projects.spring.io/spring-integration/
+[si-s]: https://github.com/spring-projects/spring-integration/tree/v4.3.9.RELEASE
+[si-d]: http://docs.spring.io/spring-integration/docs/4.3.9.RELEASE/reference/htmlsingle/
 [tf-ju-o]: http://junit.org/junit4/
 [tf-ju-s]: https://github.com/junit-team/junit/tree/r4.12
 [tf-ju-d]: projects/junit/4.12/index.html
