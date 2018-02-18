@@ -6,7 +6,6 @@
 |Build System          |[Gradle][bs-1]               |[2.12][bs-2]     |[User Guide][bs-3]<br>[Build Language Reference][bs-4]<br/>[javadoc][bs-5]<br/>[groovydoc][bs-6]|
 |Cache                 |[ehcache][ce-o]              |core 2.6.9       |                       |
 |                      |[redis][cr-o]                |[3.2.4][cr-s]    |[Documentation][cr-d]  |
-|                      |[Spring Data Redis][csdr-o]  |[1.7.4][csdr-s]  |[Documentation][csdr-d]|
 |Common Utilities      |[Commons Lang][cu-cl-o]      |[3.4][cu-cl-s]   |[Online Documentation][cu-cl-d]|
 |                      |[Joda-Time][cu-jt-o]         |[2.9.4][cu-jt-s] |Online Doc [quick][cu-jt-d1] & [full][cu-jt-d2]|
 |Continuous Integration|[TeamCity][ci-tc-o]          |[10.0.5][ci-tc-s]|[Online Documentation][ci-tc-d]|
@@ -42,9 +41,6 @@
 [cr-o]: http://redis.io/
 [cr-s]: https://github.com/antirez/redis/tree/3.2.4
 [cr-d]: https://github.com/antirez/redis-doc
-[csdr-o]: http://projects.spring.io/spring-data-redis/
-[csdr-s]: https://github.com/spring-projects/spring-data-redis/tree/1.7.4.RELEASE
-[csdr-d]: projects/spring-data-redis/1.7.4/index.html
 [cu-cl-o]: http://commons.apache.org/proper/commons-lang/
 [cu-cl-s]: https://github.com/apache/commons-lang/tree/LANG_3_4
 [cu-cl-d]: http://commons.apache.org/proper/commons-lang/javadocs/api-3.4/index.html
