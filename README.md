@@ -8,6 +8,7 @@
 |                      |[redis][cr-o]                |[3.2.4][cr-s]    |[Documentation][cr-d]  |
 |Common Utilities      |[Commons Lang][cu-cl-o]      |[3.4][cu-cl-s]   |[Online Documentation][cu-cl-d]|
 |                      |[Joda-Time][cu-jt-o]         |[2.9.4][cu-jt-s] |Online Doc [quick][cu-jt-d1] & [full][cu-jt-d2]|
+|Connection Pool       |HikariCP                     |[2.4.9][cp-h-s]  ||
 |Continuous Integration|[TeamCity][ci-tc-o]          |[10.0.5][ci-tc-s]|[Online Documentation][ci-tc-d]|
 |Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]   |[Reference][sdj-3]     |
 |Database              |[H2 Database][db-1]          |[1.3.176][db-2]  |[Documentation][db-3]<br>[javadoc][db-4]|
@@ -38,6 +39,7 @@
 [ci-tc-o]: https://www.jetbrains.com/teamcity/
 [ci-tc-s]: https://www.jetbrains.com/teamcity/download/
 [ci-tc-d]: https://confluence.jetbrains.com/display/TCD10/TeamCity+Documentation
+[cp-h-s]: https://github.com/brettwooldridge/HikariCP/tree/HikariCP-2.4.9
 [cr-o]: http://redis.io/
 [cr-s]: https://github.com/antirez/redis/tree/3.2.4
 [cr-d]: https://github.com/antirez/redis-doc
@@ -120,7 +122,6 @@
 |JDK|oraclejdk7|
 |Logging|[SLF4J 1.7.12](https://github.com/qos-ch/slf4j/tree/v_1.7.12)<br/>[Logback 1.1.3](https://github.com/qos-ch/logback)|
 |Validator|Hibernate Validator 5.1.3.Final|
-|Connection Pool|[HikariCP 2.4.9](https://github.com/brettwooldridge/HikariCP/tree/HikariCP-2.4.9)|
 |JPA Provider|[Hibernate EntityManager 4.3.10.Final](https://github.com/hibernate/hibernate-orm/tree/4.3.10.Final)|
 |任务调度|quartz 2.2.1|
 |通用工具|guava 18.0|
