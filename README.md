@@ -8,7 +8,7 @@
 |                      |[redis][cr-o]                |[3.2.4][cr-s]    |[Documentation][cr-d]  |
 |Common Utilities      |[Commons Lang][cu-cl-o]      |[3.4][cu-cl-s]   |[Online Documentation][cu-cl-d]|
 |                      |[Joda-Time][cu-jt-o]         |[2.9.4][cu-jt-s] |Online Doc [quick][cu-jt-d1] & [full][cu-jt-d2]|
-|Connection Pool       |HikariCP                     |[2.4.9][cp-h-s]  ||
+|Connection Pool       |[HikariCP][cp-h-o]           |[2.4.9][cp-h-s]  |[Configuration Properties][cp-h-cp]|
 |Continuous Integration|[TeamCity][ci-tc-o]          |[10.0.5][ci-tc-s]|[Online Documentation][ci-tc-d]|
 |Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]   |[Reference][sdj-3]     |
 |Database              |[H2 Database][db-1]          |[1.3.176][db-2]  |[Documentation][db-3]<br>[javadoc][db-4]|
@@ -39,7 +39,9 @@
 [ci-tc-o]: https://www.jetbrains.com/teamcity/
 [ci-tc-s]: https://www.jetbrains.com/teamcity/download/
 [ci-tc-d]: https://confluence.jetbrains.com/display/TCD10/TeamCity+Documentation
+[cp-h-o]: http://brettwooldridge.github.io/HikariCP/
 [cp-h-s]: https://github.com/brettwooldridge/HikariCP/tree/HikariCP-2.4.9
+[cp-h-cp]: https://github.com/brettwooldridge/HikariCP/tree/HikariCP-2.4.9#configuration-knobs-baby
 [cr-o]: http://redis.io/
 [cr-s]: https://github.com/antirez/redis/tree/3.2.4
 [cr-d]: https://github.com/antirez/redis-doc
