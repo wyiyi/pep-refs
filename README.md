@@ -15,6 +15,7 @@
 |[EAI][eai]            |[Spring Integration][si-o]   |[4.3.9][si-s]    |[Reference][si-d]      |
 |Gradle Plugin         |[Gretty][gpg-1]              |[1.2.4][gpg-2]   |[Documentation][gpg-3] |
 |JPA                   |[JSR 338][jpa-0]             |[2.1][jpa-1]     |[Specification][jpa-2] |
+|JPA Provider          |[Hibernate EntityManager][jpa-he-o]|[4.3.10.Final][jpa-he-s]|[Documentation][jpa-he-d]|
 |Quality Tools         |[Checkstyle][qt-cs-o]        |[6.19][qt-cs-s]  |[Online Documentation][qt-cs-d]|
 |                      |[Codecov][qt-cc-o]           |                 |[Online Documentation][qt-cc-d]|
 |                      |[CodeNarc][qt-cn-o]          |[0.25.2][qt-cn-s]|                       |
@@ -63,6 +64,9 @@
 [jpa-0]: https://jcp.org/en/jsr/detail?id=338
 [jpa-1]: https://jcp.org/aboutJava/communityprocess/final/jsr338/index.html
 [jpa-2]: projects/JPA/2.1/JavaPersistence2.1.pdf
+[jpa-he-o]: http://hibernate.org/orm/
+[jpa-he-s]: https://github.com/hibernate/hibernate-orm/tree/4.3.10.Final
+[jpa-he-d]: http://hibernate.org/orm/documentation/4.3/
 [qt-cc-o]: https://codecov.io/
 [qt-cc-d]: https://codecov.io/docs
 [qt-cn-o]: http://codenarc.sourceforge.net/
@@ -124,7 +128,6 @@
 |JDK|oraclejdk7|
 |Logging|[SLF4J 1.7.12](https://github.com/qos-ch/slf4j/tree/v_1.7.12)<br/>[Logback 1.1.3](https://github.com/qos-ch/logback)|
 |Validator|Hibernate Validator 5.1.3.Final|
-|JPA Provider|[Hibernate EntityManager 4.3.10.Final](https://github.com/hibernate/hibernate-orm/tree/4.3.10.Final)|
 |任务调度|quartz 2.2.1|
 |通用工具|guava 18.0|
 |编码及加密|[common-codec 1.10](https://github.com/apache/commons-codec/tree/1.10)<br/>bounce-casle|
