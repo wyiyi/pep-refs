@@ -3,7 +3,7 @@
 
 |Catalog               |Official Site                |Source Version   |Specific Version Docs  |
 |:---------------------|:----------------------------|:----------------|:----------------------|
-|Build System          |[Gradle][bs-1]               |[2.12][bs-2]     |[User Guide][bs-3]|
+|Build System          |[Gradle][bs-1]               |[4.10.2][bs-2]     |[User Guide][bs-3]|
 |Cache                 |[ehcache][ce-o]              |core 2.6.9       |                       |
 |                      |[redis][cr-o]                |[3.2.4][cr-s]    |[Documentation][cr-d]  |
 |Common Utilities      |[Commons Lang][cu-cl-o]      |[3.8.1][cu-cl-s]   |[Online Documentation][cu-cl-d]|
@@ -33,7 +33,7 @@
 
 
 [bs-1]: http://gradle.org/
-[bs-2]: https://github.com/gradle/gradle/tree/REL_2.12
+[bs-2]: https://github.com/gradle/gradle/tree/v4.10.2
 [bs-3]: https://docs.gradle.org/current/userguide/userguide.html
 [bs-4]: projects/gradle/2.12/dsl/index.html
 [bs-5]: projects/gradle/2.12/javadoc/index.html
