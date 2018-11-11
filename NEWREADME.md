@@ -7,8 +7,8 @@
 |Cache                 |[ehcache][ce-o]              |core 2.6.9       |                       |
 |                      |[redis][cr-o]                |[3.2.4][cr-s]    |[Documentation][cr-d]  |
 |Common Utilities      |[Commons Lang][cu-cl-o]      |[3.8.1][cu-cl-s]   |[Online Documentation][cu-cl-d]|
-|Connection Pool?       |[HikariCP][cp-h-o]          |[2.4.9][cp-h-s]  |[Configuration Properties][cp-h-cp]|
-|Continuous Integration?|[TeamCity][ci-tc-o]         |[10.0.5][ci-tc-s]|[Online Documentation][ci-tc-d]|
+|Connection Pool       |[HikariCP][cp-h-o]          |[2.4.9][cp-h-s]  |[Configuration Properties][cp-h-cp]|
+|Continuous Integration|[TeamCity][ci-tc-o]         |[10.0.5][ci-tc-s]|[Online Documentation][ci-tc-d]|
 |Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]   |[Reference][sdj-3]     |
 |Database              |[H2 Database][db-1]          |[1.3.176][db-2]  |[Documentation][db-3]<br>[javadoc][db-4]|
 |[EAI][eai]            |[Spring Integration][si-o]   |[4.3.9][si-s]    |[Reference][si-d]      |
@@ -22,9 +22,9 @@
 |                      |[JaCoCo][qt-jcc-o]           |[0.8.2][qt-jcc-s]|[Online Documentation][qt-jcc-d]|
 |                      |[P3C_PMD][qt-pmd-o]          |[1.3.5][qt-pmd-s]|[Online Documentation][qt-pmd-d]|
 |Servlet               |[JSR 315][s-1]               |[3.0.1][s-2]     |[Specification Final Release 2009][s-3] <br> [Specification Maintenance Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
-|Servlet Container?    |[Tomcat][sc-1]               |[7.0.69][sc-2]   |[Documentation][sc-3]  |
+|Servlet Container     |[Tomcat][sc-1]               |[7.0.69][sc-2]   |[Documentation][sc-3]  |
 |Spring Boot           |[Spring Boot][s-sb-o]        |[2.1.0][s-sb-s]  |[Reference][s-sb-d]    |
-|Spring Boot Gradle?   |[Spring Boot Gradle][s-sbg-o]        |[2.0.6][s-sbg-s]  |[Reference][s-sbg-d]    |
+|Spring Boot Gradle    |[Spring Boot Gradle][s-sbg-o]        |[2.0.6][s-sbg-s]  |[Reference][s-sbg-d]    |
 |Spring                |[Spring Framework][s-sf-o]   |[5.1.2][s-sf-s]  |[Reference][s-sf-d]    |
 |Test Frameworks       |[JUnit][tf-ju-o]             |[4.12][tf-ju-s]  |[javadoc][tf-ju-d]     |
 |                      |[Spock Framework][tf-sf-o]   |[1.0][tf-sf-s]   |[Documentation][tf-sf-d1] <br> [javadoc][tf-sf-d2]|
@@ -95,7 +95,7 @@
 [s-sbg-o]: 
 [s-sf-o]: http://projects.spring.io/spring-framework/
 [s-sb-s]: https://github.com/spring-projects/spring-boot
-[s-sbg-s]: 
+[s-sbg-s]: ?
 [s-sf-s]: https://github.com/spring-projects/spring-framework/tree/v5.1.2.RELEASE
 [s-sbg-d]: https://docs.spring.io/spring-boot/docs/2.0.6.RELEASE/gradle-plugin/reference/html/
 [s-sb-d]: https://docs.spring.io/spring-boot/docs/2.1.0.RELEASE/reference/htmlsingle/
