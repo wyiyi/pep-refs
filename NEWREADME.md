@@ -1,34 +1,35 @@
 技术及工具
 --------
 
-|Catalog               |Official Site                |Source Version   |Specific Version Docs  |
-|:---------------------|:----------------------------|:----------------|:----------------------|
+|Catalog               |Official Site                |Source Version      |Specific Version Docs  |
+|:---------------------|:----------------------------|:----------------   |:----------------------|
 |Build System          |[Gradle][bs-1]               |[4.10.2][bs-2]     |[User Guide][bs-3]|
-|Cache                 |[ehcache][ce-o]              |core 2.6.9       |                       |
-|                      |[redis][cr-o]                |[3.2.4][cr-s]    |[Documentation][cr-d]  |
-|Common Utilities      |[Commons Lang][cu-cl-o]      |[3.8.1][cu-cl-s]   |[Online Documentation][cu-cl-d]|
+|Cache                 |[ehcache][ce-o]              |core 2.6.9          |                       |
+|                      |[redis][cr-o]                |[3.2.4][cr-s]      |[Documentation][cr-d]  |
+|Common Utilities      |[Commons Lang][cu-cl-o]      |[3.4][cu-cl-s]    |[Online Documentation][cu-cl-d]|
 |Connection Pool       |[Druid][cp-d-o]              |[1.1.10][cp-d-s]  |[Configuration Properties][cp-d-cp]|
-|Continuous Integration|[TeamCity][ci-tc-o]         |[10.0.5][ci-tc-s]|[Online Documentation][ci-tc-d]|
-|Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]   |[Reference][sdj-3]     |
-|Database              |[H2 Database][db-1]          |[1.4.197][db-2]  |[Documentation][db-3]|
-|[EAI][eai]            |[Spring Integration][si-o]   |[5.1.0][si-s]    |[Reference][si-d]      |
-|Gradle Plugin         |[Gretty][gpg-1]              |[1.2.4][gpg-2]   |[Documentation][gpg-3] |
-|JPA                   |[JSR 338][jpa-0]             |[2.1][jpa-1]     |[Specification][jpa-2] |
+|Continuous Integration|[TeamCity][ci-tc-o]          |[10.0.5][ci-tc-s] |[Online Documentation][ci-tc-d]|
+|Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]    |[Reference][sdj-3]     |
+|Database              |[H2 Database][db-1]          |[1.4.197][db-2]   |[Documentation][db-3]|
+|[EAI][eai]            |[Spring Integration][si-o]   |[5.1.0][si-s]     |[Reference][si-d]      |
+|Gradle Plugin         |[Gretty][gpg-1]              |[1.2.4][gpg-2]    |[Documentation][gpg-3] |
+|JPA                   |[JSR 338][jpa-0]             |[2.1][jpa-1]      |[Specification][jpa-2] |
 |JPA Provider          |[Hibernate EntityManager][jpa-he-o]|[4.3.10.Final][jpa-he-s]|[Documentation][jpa-he-d]|
 |Quality Tools         |[Checkstyle][qt-cs-o]        |[8.14][qt-cs-s]  |[Online Documentation][qt-cs-d]|
-|                      |[Codecov][qt-cc-o]           |                 |[Online Documentation][qt-cc-d]|
-|                      |[CodeNarc][qt-cn-o]          |[1.2.1][qt-cn-s]|                       |
+|                      |[Codecov][qt-cc-o]           |                  |[Online Documentation][qt-cc-d]|
+|                      |[CodeNarc][qt-cn-o]          |[1.2.1][qt-cn-s] |                       |
 |                      |[FindBugs][qt-fb-o]          |[3.0.1][qt-fb-s] |[Online Documentation][qt-fb-d]|
 |                      |[JaCoCo][qt-jcc-o]           |[0.8.2][qt-jcc-s]|[Online Documentation][qt-jcc-d]|
 |                      |[P3C_PMD][qt-pmd-o]          |[1.3.6][qt-pmd-s]|[Online Documentation][qt-pmd-d]|
-|Servlet               |[JSR 315][s-1]               |[3.0.1][s-2]     |[Specification Final Release 2009][s-3] <br> [Specification Maintenance Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
+|Servlet               |[JSR 315][s-1]               |[3.0.1][s-2]      |[Specification Final Release 2009][s-3] <br> [Specification Maintenance 
+Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
 |Servlet Container     |[Tomcat][sc-1]               |[7.0.69][sc-2]   |[Documentation][sc-3]  |
 |Spring Boot           |[Spring Boot][s-sb-o]        |[2.0.6][s-sb-s]  |[Reference][s-sb-d]    |
 |Spring                |[Spring Framework][s-sf-o]   |[5.1.2][s-sf-s]  |[Reference][s-sf-d]    |
 |Test Frameworks       |[JUnit][tf-ju-o]             |[4.12][tf-ju-s]  |[javadoc][tf-ju-d]     |
 |                      |[Spock Framework][tf-sf-o]   |[1.0][tf-sf-s]   |[Documentation][tf-sf-d1] <br> [javadoc][tf-sf-d2]|
-|Workflow Platform     |[Flowable][wp-1]             |[6.4.0][wp-2]   |[FlowableDocs][wp-3]|
-|Workflow Web Designer |[Activit Web Designer][wwd-1]|                 |                       |
+|Workflow Platform     |[Flowable][wp-1]             |[6.4.0][wp-2]    |[FlowableDocs][wp-3]|
+|Workflow Web Designer |[Activit Web Designer][wwd-1]|                  |                       |
 
 
 [bs-1]: http://gradle.org/
@@ -48,8 +49,8 @@
 [cr-s]: https://github.com/antirez/redis/tree/3.2.4
 [cr-d]: https://github.com/antirez/redis-doc
 [cu-cl-o]: http://commons.apache.org/proper/commons-lang/
-[cu-cl-s]: https://github.com/apache/commons-lang/tree/LANG_3_8_1
-[cu-cl-d]: http://commons.apache.org/proper/commons-lang/javadocs/api-3.8.1/index.html
+[cu-cl-s]: https://github.com/apache/commons-lang/tree/LANG_3_4
+[cu-cl-d]: http://commons.apache.org/proper/commons-lang/javadocs/api-3.4/index.html
 [cu-jt-o]: http://www.joda.org/joda-time/
 [cu-jt-s]: https://github.com/JodaOrg/joda-time/tree/v2.9.4
 [cu-jt-d1]: http://www.joda.org/joda-time/quickstart.html
