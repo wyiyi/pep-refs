@@ -7,24 +7,23 @@
 |Cache                 |[ehcache][ce-o]              |core 2.6.9       |                       |
 |                      |[redis][cr-o]                |[3.2.4][cr-s]    |[Documentation][cr-d]  |
 |Common Utilities      |[Commons Lang][cu-cl-o]      |[3.8.1][cu-cl-s]   |[Online Documentation][cu-cl-d]|
-|Connection Pool       |[HikariCP][cp-h-o]          |[2.4.9][cp-h-s]  |[Configuration Properties][cp-h-cp]|
+|Connection Pool       |[Druid][cp-d-o]              |[1.1.10][cp-d-s]  |[Configuration Properties][cp-d-cp]|
 |Continuous Integration|[TeamCity][ci-tc-o]         |[10.0.5][ci-tc-s]|[Online Documentation][ci-tc-d]|
 |Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]   |[Reference][sdj-3]     |
-|Database              |[H2 Database][db-1]          |[1.3.176][db-2]  |[Documentation][db-3]<br>[javadoc][db-4]|
-|[EAI][eai]            |[Spring Integration][si-o]   |[4.3.9][si-s]    |[Reference][si-d]      |
+|Database              |[H2 Database][db-1]          |[1.4.197][db-2]  |[Documentation][db-3]<br>[javadoc][db-4]|
+|[EAI][eai]            |[Spring Integration][si-o]   |[5.1.0][si-s]    |[Reference][si-d]      |
 |Gradle Plugin         |[Gretty][gpg-1]              |[1.2.4][gpg-2]   |[Documentation][gpg-3] |
 |JPA                   |[JSR 338][jpa-0]             |[2.1][jpa-1]     |[Specification][jpa-2] |
 |JPA Provider          |[Hibernate EntityManager][jpa-he-o]|[4.3.10.Final][jpa-he-s]|[Documentation][jpa-he-d]|
 |Quality Tools         |[Checkstyle][qt-cs-o]        |[8.14][qt-cs-s]  |[Online Documentation][qt-cs-d]|
 |                      |[Codecov][qt-cc-o]           |                 |[Online Documentation][qt-cc-d]|
-|                      |[CodeNarc][qt-cn-o]          |[0.25.2][qt-cn-s]|                       |
+|                      |[CodeNarc][qt-cn-o]          |[1.2.1][qt-cn-s]|                       |
 |                      |[FindBugs][qt-fb-o]          |[3.0.1][qt-fb-s] |[Online Documentation][qt-fb-d]|
 |                      |[JaCoCo][qt-jcc-o]           |[0.8.2][qt-jcc-s]|[Online Documentation][qt-jcc-d]|
 |                      |[P3C_PMD][qt-pmd-o]          |[1.3.5][qt-pmd-s]|[Online Documentation][qt-pmd-d]|
 |Servlet               |[JSR 315][s-1]               |[3.0.1][s-2]     |[Specification Final Release 2009][s-3] <br> [Specification Maintenance Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
 |Servlet Container     |[Tomcat][sc-1]               |[7.0.69][sc-2]   |[Documentation][sc-3]  |
-|Spring Boot           |[Spring Boot][s-sb-o]        |[2.1.0][s-sb-s]  |[Reference][s-sb-d]    |
-|Spring Boot Gradle    |[Spring Boot Gradle][s-sbg-o]        |[2.0.6][s-sbg-s]  |[Reference][s-sbg-d]    |
+|Spring Boot           |[Spring Boot][s-sb-o]        |[2.0.6][s-sb-s]  |[Reference][s-sb-d]    |
 |Spring                |[Spring Framework][s-sf-o]   |[5.1.2][s-sf-s]  |[Reference][s-sf-d]    |
 |Test Frameworks       |[JUnit][tf-ju-o]             |[4.12][tf-ju-s]  |[javadoc][tf-ju-d]     |
 |                      |[Spock Framework][tf-sf-o]   |[1.0][tf-sf-s]   |[Documentation][tf-sf-d1] <br> [javadoc][tf-sf-d2]|
@@ -42,9 +41,9 @@
 [ci-tc-o]: https://www.jetbrains.com/teamcity/
 [ci-tc-s]: https://www.jetbrains.com/teamcity/download/
 [ci-tc-d]: https://confluence.jetbrains.com/display/TCD10/TeamCity+Documentation
-[cp-h-o]: http://brettwooldridge.github.io/HikariCP/
-[cp-h-s]: https://github.com/brettwooldridge/HikariCP/tree/HikariCP-2.4.9
-[cp-h-cp]: https://github.com/brettwooldridge/HikariCP/tree/HikariCP-2.4.9#configuration-knobs-baby
+[cp-d-o]: https://github.com/alibaba/druid 
+[cp-d-s]: https://github.com/alibaba/druid/tree/1.1.11 
+[cp-h-cp]: https://github.com/alibaba/druid/wiki/FAQ  
 [cr-o]: http://redis.io/
 [cr-s]: https://github.com/antirez/redis/tree/3.2.4
 [cr-d]: https://github.com/antirez/redis-doc
@@ -56,9 +55,9 @@
 [cu-jt-d1]: http://www.joda.org/joda-time/quickstart.html
 [cu-jt-d2]: http://www.joda.org/joda-time/userguide.html
 [db-1]: http://h2database.com/html/main.html
-[db-2]: https://github.com/h2database/h2database/tree/version-1.3/version-1.3.176/h2
-[db-3]: projects/h2/1.3.176/index.html
-[db-4]: projects/h2/1.3.176/javadoc/index.html
+[db-2]: https://github.com/h2database/h2database/tree/version-1.4.197/h2
+[db-3]: ???projects/h2/1.3.176/index.html
+[db-4]: ????projects/h2/1.3.176/javadoc/index.html
 [eai]: https://en.wikipedia.org/wiki/Enterprise_application_integration
 [gpg-1]: http://akhikhl.github.io/gretty-doc/Getting-started.html
 [gpg-2]: https://github.com/akhikhl/gretty/tree/v1.2.4
@@ -72,7 +71,7 @@
 [qt-cc-o]: https://codecov.io/
 [qt-cc-d]: https://codecov.io/docs
 [qt-cn-o]: http://codenarc.sourceforge.net/
-[qt-cn-s]: https://github.com/CodeNarc/CodeNarc/tree/v0.25.2
+[qt-cn-s]: https://github.com/CodeNarc/CodeNarc/tree/v1.2.1
 [qt-cs-o]: http://checkstyle.sourceforge.net/
 [qt-cs-s]: https://github.com/checkstyle/checkstyle/tree/checkstyle-8.14
 [qt-cs-d]: http://checkstyle.sourceforge.net/checks.html
@@ -95,10 +94,8 @@
 [s-sbg-o]: 
 [s-sf-o]: http://projects.spring.io/spring-framework/
 [s-sb-s]: https://github.com/spring-projects/spring-boot
-[s-sbg-s]: ?
 [s-sf-s]: https://github.com/spring-projects/spring-framework/tree/v5.1.2.RELEASE
-[s-sbg-d]: https://docs.spring.io/spring-boot/docs/2.0.6.RELEASE/gradle-plugin/reference/html/
-[s-sb-d]: https://docs.spring.io/spring-boot/docs/2.1.0.RELEASE/reference/htmlsingle/
+[s-sb-d]: https://docs.spring.io/spring-boot/docs/2.0.6.RELEASE/reference/htmlsingle/
 [s-sf-d]: https://docs.spring.io/spring/docs/5.1.2.RELEASE/spring-framework-reference/
 [sc-1]: http://tomcat.apache.org/
 [sc-2]: http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.69/src/
@@ -107,8 +104,8 @@
 [sdj-2]: https://github.com/spring-projects/spring-data-jpa/tree/1.9.4.RELEASE
 [sdj-3]: projects/spring-data-jpa/1.9.4/index.htm
 [si-o]: http://projects.spring.io/spring-integration/
-[si-s]: https://github.com/spring-projects/spring-integration/tree/v4.3.9.RELEASE
-[si-d]: http://docs.spring.io/spring-integration/docs/4.3.9.RELEASE/reference/htmlsingle/
+[si-s]: https://github.com/spring-projects/spring-integration/tree/v5.1.0.RELEASE
+[si-d]: http://docs.spring.io/spring-integration/docs/5.1.0.RELEASE/reference/htmlsingle/
 [tf-ju-o]: http://junit.org/junit4/
 [tf-ju-s]: https://github.com/junit-team/junit/tree/r4.12
 [tf-ju-d]: projects/junit/4.12/index.html
