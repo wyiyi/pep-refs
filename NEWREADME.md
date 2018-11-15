@@ -21,8 +21,7 @@
 |                      |[FindBugs][qt-fb-o]          |[3.0.1][qt-fb-s] |[Online Documentation][qt-fb-d]|
 |                      |[JaCoCo][qt-jcc-o]           |[0.8.2][qt-jcc-s]|[Online Documentation][qt-jcc-d]|
 |                      |[P3C_PMD][qt-pmd-o]          |[1.3.6][qt-pmd-s]|[Online Documentation][qt-pmd-d]|
-|Servlet               |[JSR 315][s-1]               |[3.0.1][s-2]      |[Specification Final Release 2009][s-3] <br> [Specification Maintenance 
-Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
+|Servlet               |[JSR 315][s-1]               |[3.0.1][s-2]      |[Specification Final Release 2009][s-3] <br> [Specification Maintenance Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
 |Servlet Container     |[Tomcat][sc-1]               |[7.0.69][sc-2]   |[Documentation][sc-3]  |
 |Spring Boot           |[Spring Boot][s-sb-o]        |[2.0.6][s-sb-s]  |[Reference][s-sb-d]    |
 |Spring                |[Spring Framework][s-sf-o]   |[5.1.2][s-sf-s]  |[Reference][s-sf-d]    |
@@ -44,7 +43,7 @@ Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
 [ci-tc-d]: https://confluence.jetbrains.com/display/TCD10/TeamCity+Documentation
 [cp-d-o]: https://github.com/alibaba/druid 
 [cp-d-s]: https://github.com/alibaba/druid/tree/1.1.11 
-[cp-h-cp]: https://github.com/alibaba/druid/wiki/FAQ  
+[cp-d-cp]: https://github.com/alibaba/druid/wiki/FAQ  
 [cr-o]: http://redis.io/
 [cr-s]: https://github.com/antirez/redis/tree/3.2.4
 [cr-d]: https://github.com/antirez/redis-doc
@@ -99,13 +98,13 @@ Release 2011][s-4] <br> [schema][s-5] <br> [javadoc][s-6] |
 [s-sf-d]: https://docs.spring.io/spring/docs/5.1.2.RELEASE/spring-framework-reference/
 [sc-1]: http://tomcat.apache.org/
 [sc-2]: http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.69/src/
-[sc-3]: projects/tomcat/7.0.69/index.html
-[sdj-1]: http://www.springsource.org/spring-data
+[sc-3]: https://tomcat.apache.org/tomcat-7.0-doc/index.html
+[sdj-1]: https://spring.io/projects/spring-data
 [sdj-2]: https://github.com/spring-projects/spring-data-jpa/tree/1.9.4.RELEASE
 [sdj-3]: projects/spring-data-jpa/1.9.4/index.htm
-[si-o]: http://projects.spring.io/spring-integration/
+[si-o]: https://spring.io/projects/spring-integration
 [si-s]: https://github.com/spring-projects/spring-integration/tree/v5.1.0.RELEASE
-[si-d]: http://docs.spring.io/spring-integration/docs/5.1.0.RELEASE/reference/htmlsingle/
+[si-d]: https://docs.spring.io/spring-integration/docs/5.1.0.RELEASE/reference/htmlsingle/
 [tf-ju-o]: http://junit.org/junit4/
 [tf-ju-s]: https://github.com/junit-team/junit/tree/r4.12
 [tf-ju-d]: projects/junit/4.12/index.html
