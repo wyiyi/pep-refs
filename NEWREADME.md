@@ -9,9 +9,8 @@
 |Common Utilities      |[Commons Lang][cu-cl-o]      |[3.4][cu-cl-s]    |[Online Documentation][cu-cl-d]|
 |Connection Pool       |[Druid][cp-d-o]              |[1.1.10][cp-d-s]  |[Configuration Properties][cp-d-cp]|
 |Continuous Integration|[TeamCity][ci-tc-o]          |[10.0.5][ci-tc-s] |[Online Documentation][ci-tc-d]|
-|Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]    |[Reference][sdj-3]     |
+|Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]    |[Reference][sdj-3]|
 |Database              |[H2 Database][db-1]          |[1.4.197][db-2]   |[Documentation][db-3]|
-|[EAI][eai]            |[Spring Integration][si-o]   |[5.1.0][si-s]     |[Reference][si-d]      |
 |Gradle Plugin         |[Gretty][gpg-1]              |[1.2.4][gpg-2]    |[Documentation][gpg-3] |
 |JPA                   |[JSR 338][jpa-0]             |[2.1][jpa-1]      |[Specification][jpa-2] |
 |JPA Provider          |[Hibernate EntityManager][jpa-he-o]|[4.3.10.Final][jpa-he-s]|[Documentation][jpa-he-d]|
@@ -90,7 +89,6 @@
 [s-5]: projects/servlet/3.0/schema
 [s-6]: projects/servlet/3.0/javadoc/index.html
 [s-sb-o]: https://spring.io/projects/spring-boot
-[s-sbg-o]: 
 [s-sf-o]: http://projects.spring.io/spring-framework/
 [s-sb-s]: https://github.com/spring-projects/spring-boot
 [s-sf-s]: https://github.com/spring-projects/spring-framework/tree/v5.1.2.RELEASE
@@ -99,12 +97,9 @@
 [sc-1]: http://tomcat.apache.org/
 [sc-2]: http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.69/src/
 [sc-3]: https://tomcat.apache.org/tomcat-7.0-doc/index.html
-[sdj-1]: https://spring.io/projects/spring-data
+[sdj-1]: https://spring.io/projects/spring-data-jpa
 [sdj-2]: https://github.com/spring-projects/spring-data-jpa/tree/1.9.4.RELEASE
-[sdj-3]: projects/spring-data-jpa/1.9.4/index.htm
-[si-o]: https://spring.io/projects/spring-integration
-[si-s]: https://github.com/spring-projects/spring-integration/tree/v5.1.0.RELEASE
-[si-d]: https://docs.spring.io/spring-integration/docs/5.1.0.RELEASE/reference/htmlsingle/
+[sdj-3]: https://docs.spring.io/spring-data/jpa/docs/1.9.4.RELEASE/reference/html/
 [tf-ju-o]: http://junit.org/junit4/
 [tf-ju-s]: https://github.com/junit-team/junit/tree/r4.12
 [tf-ju-d]: projects/junit/4.12/index.html
