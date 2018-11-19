@@ -1,12 +1,12 @@
-ºº ıº∞π§æﬂ
+ÊäÄÊúØÂèäÂ∑•ÂÖ∑
 --------
 
 |Catalog               |Official Site                |Source Version      |Specific Version Docs  |
 |:---------------------|:----------------------------|:----------------   |:----------------------|
 |Build System          |[Gradle][bs-1]               |[4.10.2][bs-2]     |[User Guide][bs-3]|
 |Cache                 |[ehcache][ce-o]              |core 2.6.9          |                       |
-|                      |[redis][cr-o]                |[3.2.4][cr-s]      |[Documentation][cr-d]  |
-|Common Utilities      |[Commons Lang][cu-cl-o]      |[3.4][cu-cl-s]    |[Online Documentation][cu-cl-d]|
+|                      |[redis][cr-o]                |[2.3.2][cr-s]      |[Documentation][cr-d]  |
+|Common UtilitiesÔºü    |[Commons Lang][cu-cl-o]      |[3.4][cu-cl-s]    |[Online Documentation][cu-cl-d]|
 |Connection Pool       |[Druid][cp-d-o]              |[1.1.10][cp-d-s]  |[Configuration Properties][cp-d-cp]|
 |Continuous Integration|[TeamCity][ci-tc-o]          |[10.0.5][ci-tc-s] |[Online Documentation][ci-tc-d]|
 |Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]    |[Reference][sdj-3]|
@@ -111,29 +111,3 @@
 [wp-2]: https://github.com/flowable/flowable-engine/tree/flowable-6.4.0
 [wp-3]: https://www.flowable.org/docs/userguide/index.html#_getting_started
 [wwd-1]: https://github.com/AlphaHinex/Activiti/tree/web-designer
-
-
-∏®÷˙π§æﬂ
-------
-
-|Catalog   |Tool                         |
-|:---------|:----------------------------|
-|UML & ERD |[StarUML](http://staruml.io/)|
-|ICON      |[icomoon](https://icomoon.io/app/#/select)|
-
-
----
-
-
-|Catalog|Version|
-|:--|:--|
-|JDK|oraclejdk7|
-|Logging|[SLF4J 1.7.12](https://github.com/qos-ch/slf4j/tree/v_1.7.12)<br/>[Logback 1.1.3](https://github.com/qos-ch/logback)|
-|Validator|Hibernate Validator 5.1.3.Final|
-|»ŒŒÒµ˜∂»|quartz 2.2.1|
-|Õ®”√π§æﬂ|guava 18.0|
-|±‡¬Îº∞º”√‹|[common-codec 1.10](https://github.com/apache/commons-codec/tree/1.10)<br/>bounce-casle|
-|xml|dom4j|
-|JSON|[jackson-databind 2.3.6](https://github.com/FasterXML/jackson-databind/tree/jackson-databind-2.6.3)|
-|œ˚œ¢∂”¡–||
-|license||
