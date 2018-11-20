@@ -11,6 +11,7 @@
 |Continuous Integration|[TeamCity][ci-tc-o]          |[10.0.5][ci-tc-s] |[Online Documentation][ci-tc-d]|
 |Data Access Layer     |[Spring Data JPA][sdj-1]     |[1.9.4][sdj-2]    |[Reference][sdj-3]|
 |Database              |[H2 Database][db-1]          |[1.4.197][db-2]   |[Documentation][db-3]|
+|                      |[Liquibase][db-lb-o]         |[3.6.1][db-lb-s]  |[Documentation][db-lb-d]|
 |Gradle Plugin         |[Gretty][gpg-1]              |[1.2.4][gpg-2]    |[Documentation][gpg-3] |
 |JPA                   |[JSR 338][jpa-0]             |[2.1][jpa-1]      |[Specification][jpa-2] |
 |JPA Provider          |[Hibernate EntityManager][jpa-he-o]|[4.3.10.Final][jpa-he-s]|[Documentation][jpa-he-d]|
@@ -24,6 +25,7 @@
 |Servlet Container     |[Tomcat][sc-1]               |[7.0.69][sc-2]   |[Documentation][sc-3]  |
 |Spring Boot           |[Spring Boot][s-sb-o]        |[2.0.6][s-sb-s]  |[Reference][s-sb-d]    |
 |Spring                |[Spring Framework][s-sf-o]   |[5.1.2][s-sf-s]  |[Reference][s-sf-d]    |
+|Spring Fox            |[Swagger][s-s-o]             |[3.0.0][s-s-s]   |[Reference][s-s-d]    |
 |Test Frameworks       |[JUnit][tf-ju-o]             |[4.12][tf-ju-s]  |[javadoc][tf-ju-d]     |
 |                      |[Spock Framework][tf-sf-o]   |[1.0][tf-sf-s]   |[Documentation][tf-sf-d1] <br> [javadoc][tf-sf-d2]|
 |Workflow Platform     |[Flowable][wp-1]             |[6.4.0][wp-2]    |[FlowableDocs][wp-3]|
@@ -56,6 +58,9 @@
 [db-1]: http://h2database.com/html/main.html
 [db-2]: https://github.com/h2database/h2database/tree/version-1.4.197/h2
 [db-3]: http://h2database.com/html/main.html
+[db-lb-o]: http://www.liquibase.org/
+[db-lb-s]: https://github.com/liquibase/liquibase/tree/liquibase-parent-3.6.1
+[db-lb-d]: http://www.liquibase.org/documentation/index.html
 [eai]: https://en.wikipedia.org/wiki/Enterprise_application_integration
 [gpg-1]: http://akhikhl.github.io/gretty-doc/Getting-started.html
 [gpg-2]: https://github.com/akhikhl/gretty/tree/v1.2.4
@@ -100,6 +105,9 @@
 [sdj-1]: https://spring.io/projects/spring-data-jpa
 [sdj-2]: https://github.com/spring-projects/spring-data-jpa/tree/1.9.4.RELEASE
 [sdj-3]: https://docs.spring.io/spring-data/jpa/docs/1.9.4.RELEASE/reference/html/
+[s-s-o]: http://springfox.github.io/springfox/ 
+[s-s-s]: https://github.com/springfox/springfox
+[s-s-d]:  http://springfox.github.io/springfox/docs/snapshot/
 [tf-ju-o]: http://junit.org/junit4/
 [tf-ju-s]: https://github.com/junit-team/junit/tree/r4.12
 [tf-ju-d]: projects/junit/4.12/index.html
