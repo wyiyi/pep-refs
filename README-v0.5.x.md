@@ -25,7 +25,7 @@
 |Spring Boot           |[Spring Boot][s-sb-o]        |[2.0.6][s-sb-s]  |[Reference][s-sb-d]    |
 |                      |[Spring Boot Gradle Plugin v2.0.6][sbgp]|          |                       |
 |Spring                |[Spring Framework][s-sf-o]   |[5.1.2][s-sf-s]  |[Reference][s-sf-d]    |
-|Swagger               |[Spring Fox][s-s-o]          |[3.0.0][s-s-s]   |[Reference][s-s-d]    |
+|Swagger               |[Spring Fox][s-s-o]          |[3.0.0-SNAPSHOT][s-s-s]   |[Reference][s-s-d]    |
 |Test Frameworks       |[JUnit][tf-ju-o]             |[4.12][tf-ju-s]  |[javadoc][tf-ju-d]     |
 |                      |[Spock Framework][tf-sf-o]   |[1.0][tf-sf-s]   |[Documentation][tf-sf-d1] <br> [javadoc][tf-sf-d2]|
 |Workflow Platform     |[Flowable][wp-1]             |[6.4.0][wp-2]    |[FlowableDocs][wp-3]|
